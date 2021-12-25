@@ -1,0 +1,61 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="KW31Y?lTlz1pqGm+WlQ4">X</variable></variables><block type="function_definition" id="5:70d)7g4p##]vjs~840" collapsed="true" x="728" y="-396"><mutation name="綱表示" functionid="bv8O4N-E7SaM+Oe#UbFK"><arg name="数値" id="t{MsB7#rOkSyT)_4%hYi" type="number"/></mutation><field name="function_name">綱表示</field><statement name="STACK"><block type="controls_if" id="$PFMFg$c+]?CrP!VAvKs"><mutation elseif="9"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="G_3gg]kK!I.u2^%nexny"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="/I~8GPkD*%7mI$NA~o3q"><field name="VALUE">数値</field></block></value><value name="B"><shadow type="math_number" id="2)jD}zOajKB#8jNkUAnn"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="_Ax8Ng`z-,lggC-}BKTm"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="]y8y:+Tut2+t!zxD~tf`"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="0%5@C:y{I]8Z09W95y|N"><field name="VALUE">数値</field></block></value><value name="B"><shadow type="math_number" id="]A^%xI9{+pE29PvL%`vA"><field name="NUM">1</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="ui%nfsSufK`]*q32-YKv"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="GJ9UzV~PsbyK*0uky@qb"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="Iigsu,+Mbe^wL2_*NiOm"><field name="VALUE">数値</field></block></value><value name="B"><shadow type="math_number" id="LO*20uxE(KoZ7r?k*.cI"><field name="NUM">2</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="b[DhAc9x~A0E=3gq{n2h"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF3"><block type="logic_compare" id="p^6#kj*V`h+)Kk4NjD6Z"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="`^F$h][Phtnb3T!t%S,9"><field name="VALUE">数値</field></block></value><value name="B"><shadow type="math_number" id="?!^Gd#1qnkW.c|#1egVD"><field name="NUM">3</field></shadow></value></block></value><statement name="DO3"><block type="device_show_leds" id="inon@%1D!+myl*K041[i"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF4"><block type="logic_compare" id="~jXI:IFofq4dVb2vfhji"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="hV7kii;V6V;CM,#4qEZO"><field name="VALUE">数値</field></block></value><value name="B"><shadow type="math_number" id="^W](?P3RnFWfn@i?g{b+"><field name="NUM">4</field></shadow></value></block></value><statement name="DO4"><block type="device_show_leds" id="/V=:f/s5qUWHLlin)${;"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . . . .
+        `</field></block></statement><value name="IF5"><block type="logic_compare" id="bRD#X`.X3_RmCjAiEjog"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="!oWPETb/[[^^#WLdC,!0"><field name="VALUE">数値</field></block></value><value name="B"><shadow type="math_number" id="._!s)K]7BH*S-Vpeby|;"><field name="NUM">5</field></shadow></value></block></value><statement name="DO5"><block type="device_show_leds" id="EwcY]xXB.RN8yx2-/t4,"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . # # # . 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><value name="IF6"><block type="logic_compare" id="PzErj[}xz!90LCgY[.`5"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="s)+I5E+N8wbce+]MvGo5"><field name="VALUE">数値</field></block></value><value name="B"><shadow type="math_number" id="I}r(6G.m9?LXQdyRhQV1"><field name="NUM">6</field></shadow></value></block></value><statement name="DO6"><block type="device_show_leds" id="m=X8?JZ1N.e(S|^bCQQU"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . # # # . 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><value name="IF7"><block type="logic_compare" id="gkv6!i:}/wA~yEbqk=Qm"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="z}wV]7DECUVEFUun}873"><field name="VALUE">数値</field></block></value><value name="B"><shadow type="math_number" id="m/-,B_uO,?WvIH.:~q0)"><field name="NUM">7</field></shadow></value></block></value><statement name="DO7"><block type="device_show_leds" id="TU(}d7Rzm!0*m|=D`5W#"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # . 
+        . # # # .
+        `</field></block></statement><value name="IF8"><block type="logic_compare" id="{;,sH4}sC2Cw`M=NrR(b"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="$fZvGX^s?#aEc`)K_Wnx"><field name="VALUE">数値</field></block></value><value name="B"><shadow type="math_number" id="F;^_IKcsaaJo:w((8AY_"><field name="NUM">8</field></shadow></value></block></value><statement name="DO8"><block type="device_show_leds" id="d73=9;/5Iv4UR5xX55/h"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field></block></statement><value name="IF9"><block type="logic_compare" id="c?74w8V-YXFdHX.j$6|="><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="hk?e0uh:Q]d6d;?m(|Yi"><field name="VALUE">数値</field></block></value><value name="B"><shadow type="math_number" id="U-#*F4:atcQ(#S3SoHP#"><field name="NUM">9</field></shadow></value></block></value><statement name="DO9"><block type="device_show_leds" id="-0z=Bx}ex7dw0]Nw!teh"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block></statement></block><block type="pxt-on-start" id="T%s)d-,0RY*dM}RCe*`=" x="-28" y="-165"><statement name="HANDLER"><block type="variables_set" id="tcW7;9$BuhD}T5]IibX]"><field name="VAR" id="KW31Y?lTlz1pqGm+WlQ4">X</field><value name="VALUE"><shadow type="math_number" id="-#^#f~PJveO.rA1U8a.o"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_forever" id="dq|e9+eT3UGF_-tb(J4Z" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="QoK~#5:897f8i:VeQL|5"><field name="VAR" id="KW31Y?lTlz1pqGm+WlQ4">X</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="~!QUWmTV3R1;,E*KS,8M"><field name="OP">ADD</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="$]oFWGwBn%Sz%ifdn|Dt"><field name="VAR" id="KW31Y?lTlz1pqGm+WlQ4">X</field></block></value><value name="B"><shadow type="math_number" id="Dv=`A,8b:`M/n[_!^-.M"><field name="NUM">1</field></shadow></value></block></value><next><block type="function_call" id="*?wo]d=t::]it3WyE])s"><mutation name="綱表示" functionid="bv8O4N-E7SaM+Oe#UbFK"><arg name="数値" id="t{MsB7#rOkSyT)_4%hYi" type="number"/></mutation><value name="t{MsB7#rOkSyT)_4%hYi"><shadow type="math_number" id="Xfty+ol]jR.Cdj6@cN{`"><field name="NUM">1</field></shadow><block type="variables_get" id="CrM!Nt,c+8(%b1x1#2.X"><field name="VAR" id="KW31Y?lTlz1pqGm+WlQ4">X</field></block></value><next><block type="device_pause" id="QSYC1%}.SndfhqJ]tgZv"><value name="pause"><shadow type="timePicker" id="2g@gR5W|^S-X37sM0KIz"><field name="ms">200</field></shadow></value><next><block type="controls_if" id="#1VV_wt~vqLSH]IVWUUV"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="$mY1]rRB$i}*JC}dBZp7"><field name="OP">GTE</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="DU^`mTh8GKH;gTit:Y@h"><field name="VAR" id="KW31Y?lTlz1pqGm+WlQ4">X</field></block></value><value name="B"><shadow type="math_number" id="H!iRf@)Sr[X$49@z1t2e"><field name="NUM">10</field></shadow></value></block></value><statement name="DO0"><block type="variables_set" id="jkmRI[^c@m||2[R?9+Zv"><field name="VAR" id="KW31Y?lTlz1pqGm+WlQ4">X</field><value name="VALUE"><shadow type="math_number" id="f}*1ODVIMUpzb{dS^5Gd"><field name="NUM">0</field></shadow></value></block></statement></block></next></block></next></block></next></block></statement></block></xml>
